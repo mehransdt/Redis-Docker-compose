@@ -14,4 +14,4 @@ services:
         - database_network
         
 networks:
-  - database_network:
+  database_network:
