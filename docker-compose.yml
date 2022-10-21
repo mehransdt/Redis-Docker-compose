@@ -12,3 +12,6 @@ services:
         - "6379:6379"
       networks:
         - database_network
+        
+networks:
+  - database_network:
